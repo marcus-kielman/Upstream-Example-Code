@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="557" height="315.138" viewBox="0 0 557 315.138">
+  <g id="menu_header" transform="translate(0 8)">
+    <g id="Group_1" data-name="Group 1">
+      <line id="Line_1" data-name="Line 1" x2="172" fill="none" stroke="#193b56" stroke-width="16"/>
+      <path id="Path_1" data-name="Path 1" d="M0,298.98V0" transform="translate(8)" fill="#193b56" stroke="#193b56" stroke-width="16"/>
+      <line id="Line_3" data-name="Line 3" x1="172" transform="translate(0 298.98)" fill="none" stroke="#193b56" stroke-width="16"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(557 299.138) rotate(180)">
+      <line id="Line_1-2" data-name="Line 1" x2="172" fill="none" stroke="#193b56" stroke-width="16"/>
+      <path id="Path_1-2" data-name="Path 1" d="M0,298.98V0" transform="translate(8)" fill="#193b56" stroke="#193b56" stroke-width="16"/>
+      <line id="Line_3-2" data-name="Line 3" x1="172" transform="translate(0 298.98)" fill="none" stroke="#193b56" stroke-width="16"/>
+    </g>
+    <text id="MENU" transform="translate(86 207.648)" fill="#193b56" font-size="211" font-weight="300" font-family="Lobster" letter-spacing="-0.078em"><tspan x="0" y="0">MENU</tspan></text>
+  </g>
+</svg>

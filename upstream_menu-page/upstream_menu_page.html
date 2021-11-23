@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template Menu</title>
+<style id="applicationStylesheet" type="text/css">
+    @font-face{
+        font-family: Vintage;
+        src: url(./volaroid/Volaroid\ Script.ttf);
+    }
+    @font-face{
+        font-family: Vintage Items;
+        src: url(./Lobster/Lobster-Regular.ttf);
+    }
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+    body{
+		background-color: rgba(237,209,170,1);
+        overflow: scroll;
+    }
+    .header{
+        padding: 20px;
+        width: 100%;  
+    }
+    .footer{
+        padding: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /*Layout for menu img and chubby cheeses img*/
+    .menu_img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        min-width: 200px;
+        min-height: 50px;
+        font-family: Vintage Items;
+    }
+    .cc_img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+        min-width: 200px;
+        min-height: 50px
+    }
+
+    /*general body layout*/
+    .CC_Menu_Window {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+	}
+
+    /*Layout for sections Bread, Cheeses, Drinks, Sides, and Meats*/
+    .column{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        background: rgba(25,59,86,1);
+        height: 100px;
+        width: 90%;
+    }
+    .section{
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(25,59,86,1);
+        height: 90px;
+        width: 90%;
+    }
+	.HEADERTEXT {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 14px;
+		overflow: visible;
+		width: inherit;
+		white-space: nowrap;
+		text-align: center;
+		/*font-family: Abadi MT Condensed Light;*/
+        /*font-family: Vintage Deco;*/
+        font-family: Vintage;
+		font-style: normal;
+		font-weight: normal;
+        font-size: 35px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.78px;
+	}
+
+    /*Pricing layout*/
+	.All_Sandwiches_Come_With_One_S {
+		overflow: visible;
+		width: 100%;
+        white-space: wrap;
+		margin-top: 50px;
+		text-align: center;
+		/*font-family: Abadi MT Condensed Extra Bold;*/
+		/*font-family: Vintage Deco;*/
+        font-family: Vintage Items;
+        font-style: normal;
+		font-weight: normal;
+        font-size: 6vmin;
+		color: rgba(25,59,86,1);
+		letter-spacing: -0.39px;
+        padding-left: 10px;
+        padding-right: 10px;
+	}
+
+    /*Item Layout*/
+    .Item_Text{
+        margin-top: 10px;
+        overflow: visible;
+		width: 100%;
+		white-space:normal;
+		text-align: center;
+		/*font-family: Abadi MT Condensed Light;*/
+        /*font-family: Vintage Deco;*/
+        font-family: Vintage Items;
+		font-style: normal;
+		font-weight: normal;
+        font-size: 35px;
+		color: rgba(25,59,86,1);
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <svg class="menu_img" xmlns="http://www.w3.org/2000/svg" width="557" height="315.138" viewBox="0 0 557 315.138">
+            <g id="menu_header" transform="translate(0 8)">
+              <g id="Group_1" data-name="Group 1">
+                <line id="Line_1" data-name="Line 1" x2="172" fill="none" stroke="#193b56" stroke-width="16"/>
+                <path id="Path_1" data-name="Path 1" d="M0,298.98V0" transform="translate(8)" fill="#193b56" stroke="#193b56" stroke-width="16"/>
+                <line id="Line_3" data-name="Line 3" x1="172" transform="translate(0 298.98)" fill="none" stroke="#193b56" stroke-width="16"/>
+              </g>
+              <g id="Group_2" data-name="Group 2" transform="translate(557 299.138) rotate(180)">
+                <line id="Line_1-2" data-name="Line 1" x2="172" fill="none" stroke="#193b56" stroke-width="16"/>
+                <path id="Path_1-2" data-name="Path 1" d="M0,298.98V0" transform="translate(8)" fill="#193b56" stroke="#193b56" stroke-width="16"/>
+                <line id="Line_3-2" data-name="Line 3" x1="172" transform="translate(0 298.98)" fill="none" stroke="#193b56" stroke-width="16"/>
+              </g>
+              <text id="MENU" transform="translate(86 207.648)" fill="#193b56" font-size="155" font-weight="300" letter-spacing="-0.078em"><tspan x="0" y="0">MENU</tspan></text>
+            </g>
+          </svg>
+    </div>
+    <div class="CC_Menu_Window">
+        <div class="column">
+            <div class="section">
+                <div class="HEADERTEXT">BREAD</div>
+            </div>
+            <div class="Item_Text">
+                <span>Wheat/White/Sourdough</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <div class="HEADERTEXT">MEATS</div>
+            </div>
+            <div class="Item_Text">
+                <span>Turkey/Ham/Bacon</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <div class="HEADERTEXT">CHEESES</div>
+            </div>
+            <div class="Item_Text">
+                <span>American/Provolone/Cheddar</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <div class="HEADERTEXT">SIDES</div>
+            </div>
+            <div class="Item_Text">
+                <span>Tomato Soup/Side Salad</span>
+            </div>
+        </div>
+        <div class="column">
+            <div class="section">
+                <div class="HEADERTEXT">DRINKS</div>
+            </div>
+            <div class="Item_Text">
+                <span>Water/Homemade Lemonade</span>
+            </div>
+        </div>
+    </div>
+    <div class="All_Sandwiches_Come_With_One_S">
+        <span>*All Sandwiches Come With One Side And Drink for $7<br/>Extra Side $2</span>
+    </div>
+    </body>
+    </html>
